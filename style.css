@@ -30,7 +30,7 @@ body {
 }
 
 #hero {
-    background-image: url('./imgs/img3.jpg');
+    background-image: url('./imgs/bkrnd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 250px 0;
