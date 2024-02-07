@@ -1,0 +1,78 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* White background */
+    color: whitesmoke; /* Black text color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #000000; /* Black color for the brand text */
+}
+
+.navbar-brand img {
+    width: 40px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    color: #000000; /* Black color for the navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff1493; /* Color of navigation links on hover */
+}
+
+/* Portfolio Section Styles */
+
+#portfolio {
+    padding: 4rem 0;
+}
+
+.card {
+    border: none; /* Removes the border around the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Adds a slight lift effect on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Adds a subtle glow effect on hover */
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0; /* Adds rounded corners only to the top */
+    transition: filter 0.3s ease; /* Added filter transition */
+}
+
+.card-img-top:hover {
+    filter: brightness(80%); /* Reduces brightness of image on hover */
+}
+
+.card-title {
+    margin: 0; /* Removes any default margin for the card title */
+    color: #000000; /* Black color for the card titles */
+}
+
+/* Instagram Link Color */
+.navbar-nav .nav-link[href*="instagram"] {
+    color: #ff69b4; /* Change the color of the Instagram link */
+}
+
+/* Instagram Link Hover Color */
+.navbar-nav .nav-link[href*="instagram"]:hover {
+    color: #ff1493; /* Change the hover color of the Instagram link */
+}
+
+/* Modal Styles */
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,55 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+
+.full-width-nav {
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 50px; /* Adjust the width of the logo image */
+    height: auto;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff1493;
+}
+
+#hero {
+    background-image: url('./imgs/img3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+
+#hero p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color:grey;
+    color: silver;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
