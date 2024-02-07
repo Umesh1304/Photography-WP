@@ -30,14 +30,14 @@ body {
 }
 
 #hero {
-    background-image: url('./imgs/bkrnd.jpg');
+    background-image: url('./imgs/bknd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 250px 0;
 }
 
 #hero p {
-    color: white;
+    color: whitesmoke;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
